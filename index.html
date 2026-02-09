@@ -14,13 +14,17 @@
             I'm Bao, a software engineering student.
             Currently learning HTML, CSS, and JavaScript to become a frontend developer.
         </p>
-        <form id="contactForm">
-        <input type="text" id="name" placeholder="Your name">
-        <input type="email" id="email" placeholder="Your email">
+        <a href="Bao-CV.pdf.pdf" target="_blank" class="cv-btn">
+        Download CV
+        </a>
+
+        <form action="https://formspree.io/f/mqedaqzv" method="POST">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
         <button type="submit">Send</button>
         </form>
+        <p id="message"></p>
 
-<p id="message"></p>
     </div>
     <script src="script.js"></script>
     
